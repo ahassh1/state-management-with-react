@@ -1,12 +1,19 @@
 import type { IMovie } from "../types/movies";
 interface IMovieCardProps{
     movie:IMovie,
-    handleSaveMovie: (movie: IMovie) => void
+    handleSaveMovie: (movie: IMovie) => void,
+    isSaved: IMovie[],
+    setIsSaved:React.Dispatch<React.SetStateAction<IMovie[]>>
 }
-const MovieCard = ({movie, handleSaveMovie}: IMovieCardProps) => {
+const MovieCard = ({movie, handleSaveMovie, isSaved, setIsSaved}: IMovieCardProps) => {
     const handleOnClick= ()=>{
         handleSaveMovie(movie)
+        const filterMovies = isSaved.filter((saved)=> saved.id !== movie.id)   //remove duplicate (filter)
+        const updateMovies = [...filterMovies, movie]
+        setIsSaved(updateMovies)  //set in the state
     }
+    console.log(isSaved);
+    
     return (
         <div>
            <div className="card bg-base-100 shadow-lg">
