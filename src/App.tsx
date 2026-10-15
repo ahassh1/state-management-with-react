@@ -1,16 +1,22 @@
+import { Suspense } from 'react'
 import './App.css'
-import FilterSection from './components/FilterSection'
-import MoviesSection from './components/MoviesSection'
-import Navbar from './components/Navbar'
+import MainComponent from './components/MainComponent'
+import type { IMovie } from './types/movies'
 function App() {
+  const moviePromise: Promise<IMovie[]> = fetch("/data.json")
+  .then((res)=>{
+    if(!res.ok)
+{      throw new Error("error find")}
+    return  res.json()
+  })
 
 
-  return (
+    return (
     <>
       <div>
-        <Navbar/>
-        <FilterSection/>
-        <MoviesSection/>
+      <Suspense fallback={<p>loading .....</p>}> 
+         <MainComponent moviePromise={moviePromise}/>
+      </Suspense>
       </div>
     </>
   )
