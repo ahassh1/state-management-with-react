@@ -1,6 +1,12 @@
 import type { IMovie } from "../types/movies";
-
-const MovieCard = ({movie}: {movie:IMovie}) => {
+interface IMovieCardProps{
+    movie:IMovie,
+    handleSaveMovie: (movie: IMovie) => void
+}
+const MovieCard = ({movie, handleSaveMovie}: IMovieCardProps) => {
+    const handleOnClick= ()=>{
+        handleSaveMovie(movie)
+    }
     return (
         <div>
            <div className="card bg-base-100 shadow-lg">
@@ -20,7 +26,7 @@ const MovieCard = ({movie}: {movie:IMovie}) => {
     <p>{movie.description.split(" ").slice(0,20).join(" ").toLowerCase()}</p>
     <div className="card-actions flex justify-between items-center">
         <div>
-            <button className="btn  btn-neutral rounded-md hover:bg-gray-200 hover:text-black">Add movie</button>
+            <button onClick={handleOnClick} className="btn  btn-neutral rounded-md hover:bg-gray-200 hover:text-black">Add movie</button>
         </div>
       <div className="space-x-2">
           <div className="badge badge-outline">{movie.director.split(" ").slice(0,1).join(" ")}</div>
