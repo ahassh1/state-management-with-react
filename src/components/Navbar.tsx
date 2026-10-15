@@ -23,7 +23,7 @@ const Navbar = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="btn">Total <span>2</span></a>
+    <a className="btn btn-neutral rounded-md hover:bg-gray-200 hover:text-black">Total <span>2</span></a>
   </div>
 </div>
         </div>

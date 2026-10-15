@@ -1,123 +1,134 @@
-
 [
   {
     "id": 1,
     "title": "Prisoners",
-    "description": "A father desperately searches for his missing daughter while a detective investigates the case.",
+    "description": "A desperate father takes matters into his own hands when his young daughter and her friend mysteriously disappear.",
     "imdbRating": 8.2,
     "director": "Denis Villeneuve",
     "actors": ["Hugh Jackman", "Jake Gyllenhaal"],
     "actresses": ["Viola Davis", "Maria Bello"],
+    "genres": "Suspense Thriller",
     "image": "https://picsum.photos/seed/prisoners/300/450"
   },
   {
     "id": 2,
     "title": "Gone Girl",
-    "description": "A husband becomes the prime suspect after his wife mysteriously disappears.",
+    "description": "A husband becomes the prime suspect when his wife disappears, exposing a disturbing web of secrets and lies.",
     "imdbRating": 8.1,
     "director": "David Fincher",
     "actors": ["Ben Affleck", "Neil Patrick Harris"],
     "actresses": ["Rosamund Pike", "Carrie Coon"],
+    "genres": "Psychological Thriller",
     "image": "https://picsum.photos/seed/gonegirl/300/450"
   },
   {
     "id": 3,
     "title": "Shutter Island",
-    "description": "A US marshal investigates a disappearance at a mysterious psychiatric hospital.",
+    "description": "A US marshal investigates the disappearance of a patient from a remote psychiatric hospital and begins questioning reality.",
     "imdbRating": 8.2,
     "director": "Martin Scorsese",
     "actors": ["Leonardo DiCaprio", "Mark Ruffalo"],
     "actresses": ["Michelle Williams", "Emily Mortimer"],
+    "genres": "Psychological Thriller",
     "image": "https://picsum.photos/seed/shutterisland/300/450"
   },
   {
     "id": 4,
     "title": "The Invisible Guest",
-    "description": "A businessman accused of murder works with a lawyer to uncover the truth.",
+    "description": "A businessman accused of murder works with a defense lawyer to reconstruct the events of a mysterious night.",
     "imdbRating": 8.0,
     "director": "Oriol Paulo",
     "actors": ["Mario Casas", "Jose Coronado"],
     "actresses": ["Ana Wagener", "Barbara Lennie"],
+    "genres": "Mystery Thriller",
     "image": "https://picsum.photos/seed/invisibleguest/300/450"
   },
   {
     "id": 5,
     "title": "Memento",
-    "description": "A man with short-term memory loss searches for his wife's killer.",
+    "description": "A man with short-term memory loss tries to find his wife's killer using notes, photographs, and tattoos.",
     "imdbRating": 8.4,
     "director": "Christopher Nolan",
     "actors": ["Guy Pearce", "Joe Pantoliano"],
     "actresses": ["Carrie-Anne Moss", "Jorja Fox"],
+    "genres": "Psychological Thriller",
     "image": "https://picsum.photos/seed/memento/300/450"
   },
   {
     "id": 6,
     "title": "Nightcrawler",
-    "description": "An ambitious crime journalist crosses ethical boundaries to capture shocking footage.",
+    "description": "An ambitious freelance videographer enters the dangerous world of crime journalism and becomes increasingly ruthless.",
     "imdbRating": 7.8,
     "director": "Dan Gilroy",
     "actors": ["Jake Gyllenhaal", "Riz Ahmed"],
     "actresses": ["Rene Russo"],
+    "genres": "Psychological Thriller",
     "image": "https://picsum.photos/seed/nightcrawler/300/450"
   },
   {
     "id": 7,
     "title": "The Prestige",
-    "description": "Two rival magicians risk everything to create the ultimate illusion.",
+    "description": "Two rival magicians become obsessed with outdoing each other, leading to deception, sacrifice, and shocking secrets.",
     "imdbRating": 8.5,
     "director": "Christopher Nolan",
     "actors": ["Christian Bale", "Hugh Jackman"],
     "actresses": ["Scarlett Johansson", "Rebecca Hall"],
+    "genres": "Mystery Thriller",
     "image": "https://picsum.photos/seed/theprestige/300/450"
   },
   {
     "id": 8,
     "title": "Se7en",
-    "description": "Two detectives hunt a serial killer whose crimes follow the seven deadly sins.",
+    "description": "Two detectives hunt a serial killer whose murders are inspired by the seven deadly sins.",
     "imdbRating": 8.6,
     "director": "David Fincher",
     "actors": ["Brad Pitt", "Morgan Freeman"],
     "actresses": ["Gwyneth Paltrow"],
+    "genres": "Mystery Thriller",
     "image": "https://picsum.photos/seed/sevenmovie/300/450"
   },
   {
     "id": 9,
     "title": "Black Swan",
-    "description": "A ballerina struggles with obsession and paranoia while preparing for a demanding performance.",
+    "description": "A dedicated ballerina struggles with intense competition and disturbing psychological changes as she prepares for a major role.",
     "imdbRating": 8.0,
     "director": "Darren Aronofsky",
     "actors": ["Vincent Cassel", "Sebastian Stan"],
     "actresses": ["Natalie Portman", "Mila Kunis", "Barbara Hershey"],
+    "genres": "Psychological Thriller",
     "image": "https://picsum.photos/seed/blackswan/300/450"
   },
   {
     "id": 10,
     "title": "Coherence",
-    "description": "A dinner party becomes unsettling when strange events begin to challenge reality.",
+    "description": "During a dinner party, a strange astronomical event creates increasingly unsettling and confusing experiences for a group of friends.",
     "imdbRating": 7.2,
     "director": "James Ward Byrkit",
     "actors": ["Nicholas Brendon", "Hugo Armstrong"],
     "actresses": ["Emily Baldoni", "Elizabeth Gracen"],
+    "genres": "Mystery Thriller",
     "image": "https://picsum.photos/seed/coherencemovie/300/450"
   },
   {
     "id": 11,
     "title": "The Game",
-    "description": "A wealthy banker receives a mysterious invitation that transforms his life into a dangerous puzzle.",
+    "description": "A wealthy businessman receives an unusual birthday gift that pulls him into a frightening game where reality becomes uncertain.",
     "imdbRating": 7.7,
     "director": "David Fincher",
     "actors": ["Michael Douglas", "Sean Penn"],
     "actresses": ["Deborah Kara Unger", "Anna Katarina"],
+    "genres": "Suspense Thriller",
     "image": "https://picsum.photos/seed/thegamemovie/300/450"
   },
   {
     "id": 12,
     "title": "Oldboy",
-    "description": "After fifteen years of imprisonment, a man seeks revenge and answers about his mysterious captor.",
+    "description": "After being imprisoned for years without explanation, a man is suddenly released and seeks answers while pursuing revenge.",
     "imdbRating": 8.3,
     "director": "Park Chan-wook",
     "actors": ["Choi Min-sik", "Yoo Ji-tae"],
     "actresses": ["Kang Hye-jung", "Yun Jin-seo"],
+    "genres": "Psychological Thriller",
     "image": "https://picsum.photos/seed/oldboymovie/300/450"
   }
 ]
